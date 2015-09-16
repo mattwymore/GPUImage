@@ -115,6 +115,10 @@ void GPUImageCreateResizedSampleBuffer(CVPixelBufferRef cameraFrame, CGSize fina
     
     self.jpegCompressionQuality = 0.8;
     
+    if (photoOutput.stillImageStabilizationSupported)
+    {
+        photoOutput.automaticallyEnablesStillImageStabilizationWhenAvailable = NO;
+    }
     return self;
 }
 

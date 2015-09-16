@@ -1,5 +1,9 @@
 # GPUImage #
 
+###NOTES###
+* This fork of GPUImage disables image stabilization for the still camera
+* Other than the previous note, this fork has no other differences from the original version of GPUImage
+
 <div style="float: right"><img src="http://sunsetlakesoftware.com/sites/default/files/GPUImageLogo.png" /></div>
 
 <a href="https://zenodo.org/record/10416#.U5YGaF773Md"><img src="https://zenodo.org/badge/doi/10.5281/zenodo.10416.png" /></a>
